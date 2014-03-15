@@ -10,3 +10,9 @@ preserve-inputs
 bootstrap-3
 underscore
 momentjs
+accounts-base
+accounts-ui-bootstrap-3
+accounts-password
+accounts-facebook
+service-configuration
+iron-router

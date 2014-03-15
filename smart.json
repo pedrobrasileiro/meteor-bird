@@ -1,6 +1,8 @@
 {
   "packages": {
     "bootstrap-3": {},
-    "momentjs": {}
+    "momentjs": {},
+    "accounts-ui-bootstrap-3": {},
+    "iron-router": {}
   }
 }

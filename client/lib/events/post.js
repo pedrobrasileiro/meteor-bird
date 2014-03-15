@@ -5,10 +5,8 @@ Template.post.events({
     // var posts = Session.get("posts") || [];
     // posts.push({message: textarea.value});
     // Session.set("posts", posts);
-    Post.insert({
-      date : moment().format('DD/MM/YYYY HH:mm:ss'), 
-      message : textarea.value
-    });
+    Post.publish(textarea.value);
     textarea.value = "";
+    return false;
   }
 });
